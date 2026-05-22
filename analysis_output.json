@@ -1,0 +1,4345 @@
+{
+  "schemas": [
+    {
+      "file": "2023.csv",
+      "n_rows": 43338,
+      "n_cols": 55,
+      "columns": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202301",
+        "202302",
+        "202303",
+        "202304",
+        "202305",
+        "202306",
+        "202307",
+        "202308",
+        "202309",
+        "202310",
+        "202311",
+        "202312",
+        "202313",
+        "202314",
+        "202315",
+        "202316",
+        "202317",
+        "202318",
+        "202319",
+        "202320",
+        "202321",
+        "202322",
+        "202323",
+        "202324",
+        "202325",
+        "202326",
+        "202327",
+        "202328",
+        "202329",
+        "202330",
+        "202331",
+        "202332",
+        "202333",
+        "202334",
+        "202335",
+        "202336",
+        "202337",
+        "202338",
+        "202339",
+        "202340",
+        "202341",
+        "202342",
+        "202343",
+        "202344",
+        "202345",
+        "202346",
+        "202347",
+        "202348",
+        "202349",
+        "202350",
+        "202351",
+        "202352"
+      ],
+      "schema": [
+        {
+          "column": "Channel",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 92,
+          "sample": [
+            "CUSTOMER1",
+            "CUSTOMER1",
+            "CUSTOMER1"
+          ]
+        },
+        {
+          "column": "Material Description",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 1645,
+          "sample": [
+            "MOBILE,SM-A032M/DS,BLACK,LTC",
+            "MOBILE,SM-A032M/DS,BLACK,LTC",
+            "MOBILE,SM-A032M/DS,BLACK,LTC"
+          ]
+        },
+        {
+          "column": "Category",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 3,
+          "sample": [
+            "Sell-in",
+            "Cust. Sales",
+            "Channel Inv."
+          ]
+        },
+        {
+          "column": "202301",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 592,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202302",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 553,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202303",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 577,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202304",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 614,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202305",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 647,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202306",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 643,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202307",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 666,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202308",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 694,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202309",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 688,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202310",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 657,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202311",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 655,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202312",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 662,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202313",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 730,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202314",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 637,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202315",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 674,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202316",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 675,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202317",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 699,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202318",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 660,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202319",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 652,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202320",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 655,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202321",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 665,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202322",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 672,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202323",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 656,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202324",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 627,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202325",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 605,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202326",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 670,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202327",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 628,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202328",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 624,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202329",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 650,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202330",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 685,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202331",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 652,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202332",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 642,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202333",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 642,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202334",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 659,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202335",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 665,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202336",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 619,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202337",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 602,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202338",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 621,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202339",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 649,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202340",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 596,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202341",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 612,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202342",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 591,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202343",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 612,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202344",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 589,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202345",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 624,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202346",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 615,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202347",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 636,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202348",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 624,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202349",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 589,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202350",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 595,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202351",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 563,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "column": "202352",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 534,
+          "sample": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2024.csv",
+      "n_rows": 37035,
+      "n_cols": 55,
+      "columns": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202413",
+        "202414",
+        "202415",
+        "202416",
+        "202417",
+        "202418",
+        "202419",
+        "202420",
+        "202421",
+        "202422",
+        "202423",
+        "202424",
+        "202425",
+        "202426",
+        "202427",
+        "202428",
+        "202429",
+        "202430",
+        "202431",
+        "202432",
+        "202433",
+        "202434",
+        "202435",
+        "202436",
+        "202437",
+        "202438",
+        "202439",
+        "202440",
+        "202441",
+        "202442",
+        "202443",
+        "202444",
+        "202445",
+        "202446",
+        "202447",
+        "202448",
+        "202449",
+        "202450",
+        "202451",
+        "202452"
+      ],
+      "schema": [
+        {
+          "column": "Channel",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 80,
+          "sample": [
+            "CUSTOMER2",
+            "CUSTOMER2",
+            "CUSTOMER2"
+          ]
+        },
+        {
+          "column": "Material Description",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 1386,
+          "sample": [
+            "AV RECEIVER,HW-C400,COLOMBIA",
+            "AV RECEIVER,HW-C400,COLOMBIA",
+            "AV RECEIVER,HW-C400,COLOMBIA"
+          ]
+        },
+        {
+          "column": "Category",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 3,
+          "sample": [
+            "Sell-in",
+            "Cust. Sales",
+            "Channel Inv."
+          ]
+        },
+        {
+          "column": "202401",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 497,
+          "sample": [
+            0,
+            0,
+            8
+          ]
+        },
+        {
+          "column": "202402",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 504,
+          "sample": [
+            0,
+            0,
+            8
+          ]
+        },
+        {
+          "column": "202403",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 525,
+          "sample": [
+            0,
+            0,
+            8
+          ]
+        },
+        {
+          "column": "202404",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 557,
+          "sample": [
+            0,
+            0,
+            8
+          ]
+        },
+        {
+          "column": "202405",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 581,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202406",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 547,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202407",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 583,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202408",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 599,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202409",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 599,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202410",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 580,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202411",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 577,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202412",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 610,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202413",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 602,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202414",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 594,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202415",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 593,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202416",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 586,
+          "sample": [
+            0,
+            0,
+            7
+          ]
+        },
+        {
+          "column": "202417",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 623,
+          "sample": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "column": "202418",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 620,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202419",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 610,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202420",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 579,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202421",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 605,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202422",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 651,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202423",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 592,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202424",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 618,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202425",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 626,
+          "sample": [
+            0,
+            0,
+            6
+          ]
+        },
+        {
+          "column": "202426",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 662,
+          "sample": [
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "column": "202427",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 605,
+          "sample": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "column": "202428",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 610,
+          "sample": [
+            0,
+            0,
+            9
+          ]
+        },
+        {
+          "column": "202429",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 615,
+          "sample": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "column": "202430",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 627,
+          "sample": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "column": "202431",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 641,
+          "sample": [
+            0,
+            0,
+            4
+          ]
+        },
+        {
+          "column": "202432",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 589,
+          "sample": [
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "column": "202433",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 587,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202434",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 577,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202435",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 628,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202436",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 558,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202437",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 563,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202438",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 587,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202439",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 626,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202440",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 609,
+          "sample": [
+            0,
+            0,
+            3
+          ]
+        },
+        {
+          "column": "202441",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 596,
+          "sample": [
+            50,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202442",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 588,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202443",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 616,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202444",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 627,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202445",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 599,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202446",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 637,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202447",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 671,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202448",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 716,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202449",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 634,
+          "sample": [
+            0,
+            0,
+            2
+          ]
+        },
+        {
+          "column": "202450",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 617,
+          "sample": [
+            0,
+            2,
+            31
+          ]
+        },
+        {
+          "column": "202451",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 599,
+          "sample": [
+            0,
+            3,
+            28
+          ]
+        },
+        {
+          "column": "202452",
+          "dtype": "int64",
+          "null_pct": 0.0,
+          "nunique": 538,
+          "sample": [
+            0,
+            4,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2025.csv",
+      "n_rows": 25239,
+      "n_cols": 55,
+      "columns": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506",
+        "202507",
+        "202508",
+        "202509",
+        "202510",
+        "202511",
+        "202512",
+        "202513",
+        "202514",
+        "202515",
+        "202516",
+        "202517",
+        "202518",
+        "202519",
+        "202520",
+        "202521",
+        "202522",
+        "202523",
+        "202524",
+        "202525",
+        "202526",
+        "202527",
+        "202528",
+        "202529",
+        "202530",
+        "202531",
+        "202532",
+        "202533",
+        "202534",
+        "202535",
+        "202536",
+        "202537",
+        "202538",
+        "202539",
+        "202540",
+        "202541",
+        "202542",
+        "202543",
+        "202544",
+        "202545",
+        "202546",
+        "202547",
+        "202548",
+        "202549",
+        "202550",
+        "202551",
+        "202552"
+      ],
+      "schema": [
+        {
+          "column": "Channel",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 74,
+          "sample": [
+            "CUSTOMER2",
+            "CUSTOMER2",
+            "CUSTOMER2"
+          ]
+        },
+        {
+          "column": "Material Description",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 1159,
+          "sample": [
+            "AV RECEIVER,HW-B400F,COLOMBIA",
+            "AV RECEIVER,HW-B400F,COLOMBIA",
+            "AV RECEIVER,HW-B400F,COLOMBIA"
+          ]
+        },
+        {
+          "column": "Category",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 3,
+          "sample": [
+            "Sell-in",
+            "Cust. Sales",
+            "Channel Inv."
+          ]
+        },
+        {
+          "column": "202501",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 488,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202502",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 511,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202503",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 530,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202504",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 555,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202505",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 601,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202506",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 558,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202507",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 545,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202508",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 572,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202509",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 584,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202510",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 552,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202511",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 555,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202512",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 553,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202513",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 586,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202514",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 585,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202515",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 583,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202516",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 566,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202517",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 617,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202518",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 624,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202519",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 603,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202520",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 597,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202521",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 605,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202522",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 678,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202523",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 595,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202524",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 637,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202525",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 645,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202526",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 673,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202527",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 627,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202528",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 647,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202529",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 628,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202530",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 653,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202531",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 648,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202532",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 612,
+          "sample": [
+            "0.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202533",
+          "dtype": "str",
+          "null_pct": 0.0,
+          "nunique": 588,
+          "sample": [
+            "20.0 ",
+            "0.0 ",
+            "0.0 "
+          ]
+        },
+        {
+          "column": "202534",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202535",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202536",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202537",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202538",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202539",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202540",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202541",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202542",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202543",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202544",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202545",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202546",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202547",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202548",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202549",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202550",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202551",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "column": "202552",
+          "dtype": "float64",
+          "null_pct": 0.0,
+          "nunique": 1,
+          "sample": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": [
+    {
+      "file": "2023.csv",
+      "duplicate_rows": 1741,
+      "duplicate_rows_pct": 4.0173,
+      "duplicate_on_key_cols_approx": null,
+      "outliers_1_99": {
+        "202301": {
+          "p01": 0.0,
+          "p99": 225.62999999999738,
+          "below_p01": 125,
+          "above_p99": 434
+        },
+        "202302": {
+          "p01": 0.0,
+          "p99": 209.62999999999738,
+          "below_p01": 152,
+          "above_p99": 434
+        },
+        "202303": {
+          "p01": 0.0,
+          "p99": 241.0,
+          "below_p01": 132,
+          "above_p99": 433
+        },
+        "202304": {
+          "p01": 0.0,
+          "p99": 288.0,
+          "below_p01": 149,
+          "above_p99": 433
+        },
+        "202305": {
+          "p01": 0.0,
+          "p99": 300.0,
+          "below_p01": 144,
+          "above_p99": 429
+        },
+        "202306": {
+          "p01": 0.0,
+          "p99": 305.6299999999974,
+          "below_p01": 158,
+          "above_p99": 434
+        },
+        "202307": {
+          "p01": 0.0,
+          "p99": 330.5199999999895,
+          "below_p01": 133,
+          "above_p99": 434
+        },
+        "202308": {
+          "p01": 0.0,
+          "p99": 358.6299999999974,
+          "below_p01": 102,
+          "above_p99": 434
+        },
+        "202309": {
+          "p01": 0.0,
+          "p99": 367.0,
+          "below_p01": 196,
+          "above_p99": 433
+        },
+        "202310": {
+          "p01": 0.0,
+          "p99": 315.6299999999974,
+          "below_p01": 152,
+          "above_p99": 434
+        },
+        "202311": {
+          "p01": 0.0,
+          "p99": 317.6299999999974,
+          "below_p01": 166,
+          "above_p99": 434
+        },
+        "202312": {
+          "p01": 0.0,
+          "p99": 332.0,
+          "below_p01": 141,
+          "above_p99": 432
+        },
+        "202313": {
+          "p01": 0.0,
+          "p99": 397.5199999999895,
+          "below_p01": 147,
+          "above_p99": 434
+        },
+        "202314": {
+          "p01": 0.0,
+          "p99": 285.0,
+          "below_p01": 143,
+          "above_p99": 433
+        },
+        "202315": {
+          "p01": 0.0,
+          "p99": 313.25999999999476,
+          "below_p01": 179,
+          "above_p99": 434
+        }
+      },
+      "negative_values": {
+        "202301": 125,
+        "202302": 152,
+        "202303": 132,
+        "202304": 149,
+        "202305": 144,
+        "202306": 158,
+        "202307": 133,
+        "202308": 102,
+        "202309": 196,
+        "202310": 152,
+        "202311": 166,
+        "202312": 141,
+        "202313": 147,
+        "202314": 143,
+        "202315": 179,
+        "202316": 141,
+        "202317": 154,
+        "202318": 170,
+        "202319": 139,
+        "202320": 137,
+        "202321": 138,
+        "202322": 120,
+        "202323": 189,
+        "202324": 134,
+        "202325": 122,
+        "202326": 155,
+        "202327": 134,
+        "202328": 167,
+        "202329": 140,
+        "202330": 122,
+        "202331": 171,
+        "202332": 130,
+        "202333": 147,
+        "202334": 138,
+        "202335": 133,
+        "202336": 155,
+        "202337": 144,
+        "202338": 140,
+        "202339": 140,
+        "202340": 147,
+        "202341": 135,
+        "202342": 100,
+        "202343": 101,
+        "202344": 121,
+        "202345": 101,
+        "202346": 107,
+        "202347": 110,
+        "202348": 127,
+        "202349": 149,
+        "202350": 134,
+        "202351": 106,
+        "202352": 153
+      }
+    },
+    {
+      "file": "2024.csv",
+      "duplicate_rows": 1620,
+      "duplicate_rows_pct": 4.3742,
+      "duplicate_on_key_cols_approx": null,
+      "outliers_1_99": {
+        "202401": {
+          "p01": 0.0,
+          "p99": 205.0,
+          "below_p01": 86,
+          "above_p99": 370
+        },
+        "202402": {
+          "p01": 0.0,
+          "p99": 220.0,
+          "below_p01": 62,
+          "above_p99": 370
+        },
+        "202403": {
+          "p01": 0.0,
+          "p99": 268.6599999999962,
+          "below_p01": 78,
+          "above_p99": 371
+        },
+        "202404": {
+          "p01": 0.0,
+          "p99": 300.0,
+          "below_p01": 52,
+          "above_p99": 366
+        },
+        "202405": {
+          "p01": 0.0,
+          "p99": 309.6599999999962,
+          "below_p01": 77,
+          "above_p99": 371
+        },
+        "202406": {
+          "p01": 0.0,
+          "p99": 271.97999999998865,
+          "below_p01": 83,
+          "above_p99": 371
+        },
+        "202407": {
+          "p01": 0.0,
+          "p99": 326.0,
+          "below_p01": 77,
+          "above_p99": 370
+        },
+        "202408": {
+          "p01": 0.0,
+          "p99": 315.6599999999962,
+          "below_p01": 52,
+          "above_p99": 371
+        },
+        "202409": {
+          "p01": 0.0,
+          "p99": 329.6599999999962,
+          "below_p01": 104,
+          "above_p99": 371
+        },
+        "202410": {
+          "p01": 0.0,
+          "p99": 277.0,
+          "below_p01": 73,
+          "above_p99": 370
+        },
+        "202411": {
+          "p01": 0.0,
+          "p99": 299.31999999999243,
+          "below_p01": 97,
+          "above_p99": 371
+        },
+        "202412": {
+          "p01": 0.0,
+          "p99": 340.0,
+          "below_p01": 80,
+          "above_p99": 369
+        },
+        "202413": {
+          "p01": 0.0,
+          "p99": 310.0,
+          "below_p01": 68,
+          "above_p99": 370
+        },
+        "202414": {
+          "p01": 0.0,
+          "p99": 300.6599999999962,
+          "below_p01": 116,
+          "above_p99": 371
+        },
+        "202415": {
+          "p01": 0.0,
+          "p99": 318.97999999998865,
+          "below_p01": 79,
+          "above_p99": 371
+        }
+      },
+      "negative_values": {
+        "202401": 86,
+        "202402": 62,
+        "202403": 78,
+        "202404": 52,
+        "202405": 77,
+        "202406": 83,
+        "202407": 77,
+        "202408": 52,
+        "202409": 104,
+        "202410": 73,
+        "202411": 97,
+        "202412": 80,
+        "202413": 68,
+        "202414": 116,
+        "202415": 79,
+        "202416": 67,
+        "202417": 75,
+        "202418": 87,
+        "202419": 67,
+        "202420": 63,
+        "202421": 82,
+        "202422": 61,
+        "202423": 95,
+        "202424": 102,
+        "202425": 87,
+        "202426": 76,
+        "202427": 93,
+        "202428": 59,
+        "202429": 74,
+        "202430": 67,
+        "202431": 78,
+        "202432": 82,
+        "202433": 62,
+        "202434": 51,
+        "202435": 63,
+        "202436": 94,
+        "202437": 87,
+        "202438": 65,
+        "202439": 76,
+        "202440": 83,
+        "202441": 91,
+        "202442": 68,
+        "202443": 88,
+        "202444": 58,
+        "202445": 98,
+        "202446": 75,
+        "202447": 60,
+        "202448": 54,
+        "202449": 81,
+        "202450": 70,
+        "202451": 68,
+        "202452": 107
+      }
+    },
+    {
+      "file": "2025.csv",
+      "duplicate_rows": 734,
+      "duplicate_rows_pct": 2.9082,
+      "duplicate_on_key_cols_approx": null,
+      "outliers_1_99": {},
+      "negative_values": {}
+    }
+  ],
+  "dates": {
+    "2023.csv": {},
+    "2024.csv": {},
+    "2025.csv": {}
+  },
+  "cross_file": {
+    "columns_per_file": {
+      "2023.csv": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202301",
+        "202302",
+        "202303",
+        "202304",
+        "202305",
+        "202306",
+        "202307",
+        "202308",
+        "202309",
+        "202310",
+        "202311",
+        "202312",
+        "202313",
+        "202314",
+        "202315",
+        "202316",
+        "202317",
+        "202318",
+        "202319",
+        "202320",
+        "202321",
+        "202322",
+        "202323",
+        "202324",
+        "202325",
+        "202326",
+        "202327",
+        "202328",
+        "202329",
+        "202330",
+        "202331",
+        "202332",
+        "202333",
+        "202334",
+        "202335",
+        "202336",
+        "202337",
+        "202338",
+        "202339",
+        "202340",
+        "202341",
+        "202342",
+        "202343",
+        "202344",
+        "202345",
+        "202346",
+        "202347",
+        "202348",
+        "202349",
+        "202350",
+        "202351",
+        "202352"
+      ],
+      "2024.csv": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202413",
+        "202414",
+        "202415",
+        "202416",
+        "202417",
+        "202418",
+        "202419",
+        "202420",
+        "202421",
+        "202422",
+        "202423",
+        "202424",
+        "202425",
+        "202426",
+        "202427",
+        "202428",
+        "202429",
+        "202430",
+        "202431",
+        "202432",
+        "202433",
+        "202434",
+        "202435",
+        "202436",
+        "202437",
+        "202438",
+        "202439",
+        "202440",
+        "202441",
+        "202442",
+        "202443",
+        "202444",
+        "202445",
+        "202446",
+        "202447",
+        "202448",
+        "202449",
+        "202450",
+        "202451",
+        "202452"
+      ],
+      "2025.csv": [
+        "Channel",
+        "Material Description",
+        "Category",
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506",
+        "202507",
+        "202508",
+        "202509",
+        "202510",
+        "202511",
+        "202512",
+        "202513",
+        "202514",
+        "202515",
+        "202516",
+        "202517",
+        "202518",
+        "202519",
+        "202520",
+        "202521",
+        "202522",
+        "202523",
+        "202524",
+        "202525",
+        "202526",
+        "202527",
+        "202528",
+        "202529",
+        "202530",
+        "202531",
+        "202532",
+        "202533",
+        "202534",
+        "202535",
+        "202536",
+        "202537",
+        "202538",
+        "202539",
+        "202540",
+        "202541",
+        "202542",
+        "202543",
+        "202544",
+        "202545",
+        "202546",
+        "202547",
+        "202548",
+        "202549",
+        "202550",
+        "202551",
+        "202552"
+      ]
+    },
+    "common_columns": [
+      "Category",
+      "Channel",
+      "Material Description"
+    ],
+    "union_columns": [
+      "202301",
+      "202302",
+      "202303",
+      "202304",
+      "202305",
+      "202306",
+      "202307",
+      "202308",
+      "202309",
+      "202310",
+      "202311",
+      "202312",
+      "202313",
+      "202314",
+      "202315",
+      "202316",
+      "202317",
+      "202318",
+      "202319",
+      "202320",
+      "202321",
+      "202322",
+      "202323",
+      "202324",
+      "202325",
+      "202326",
+      "202327",
+      "202328",
+      "202329",
+      "202330",
+      "202331",
+      "202332",
+      "202333",
+      "202334",
+      "202335",
+      "202336",
+      "202337",
+      "202338",
+      "202339",
+      "202340",
+      "202341",
+      "202342",
+      "202343",
+      "202344",
+      "202345",
+      "202346",
+      "202347",
+      "202348",
+      "202349",
+      "202350",
+      "202351",
+      "202352",
+      "202401",
+      "202402",
+      "202403",
+      "202404",
+      "202405",
+      "202406",
+      "202407",
+      "202408",
+      "202409",
+      "202410",
+      "202411",
+      "202412",
+      "202413",
+      "202414",
+      "202415",
+      "202416",
+      "202417",
+      "202418",
+      "202419",
+      "202420",
+      "202421",
+      "202422",
+      "202423",
+      "202424",
+      "202425",
+      "202426",
+      "202427",
+      "202428",
+      "202429",
+      "202430",
+      "202431",
+      "202432",
+      "202433",
+      "202434",
+      "202435",
+      "202436",
+      "202437",
+      "202438",
+      "202439",
+      "202440",
+      "202441",
+      "202442",
+      "202443",
+      "202444",
+      "202445",
+      "202446",
+      "202447",
+      "202448",
+      "202449",
+      "202450",
+      "202451",
+      "202452",
+      "202501",
+      "202502",
+      "202503",
+      "202504",
+      "202505",
+      "202506",
+      "202507",
+      "202508",
+      "202509",
+      "202510",
+      "202511",
+      "202512",
+      "202513",
+      "202514",
+      "202515",
+      "202516",
+      "202517",
+      "202518",
+      "202519",
+      "202520",
+      "202521",
+      "202522",
+      "202523",
+      "202524",
+      "202525",
+      "202526",
+      "202527",
+      "202528",
+      "202529",
+      "202530",
+      "202531",
+      "202532",
+      "202533",
+      "202534",
+      "202535",
+      "202536",
+      "202537",
+      "202538",
+      "202539",
+      "202540",
+      "202541",
+      "202542",
+      "202543",
+      "202544",
+      "202545",
+      "202546",
+      "202547",
+      "202548",
+      "202549",
+      "202550",
+      "202551",
+      "202552",
+      "Category",
+      "Channel",
+      "Material Description"
+    ],
+    "only_in_2023.csv": [
+      "202301",
+      "202302",
+      "202303",
+      "202304",
+      "202305",
+      "202306",
+      "202307",
+      "202308",
+      "202309",
+      "202310",
+      "202311",
+      "202312",
+      "202313",
+      "202314",
+      "202315",
+      "202316",
+      "202317",
+      "202318",
+      "202319",
+      "202320",
+      "202321",
+      "202322",
+      "202323",
+      "202324",
+      "202325",
+      "202326",
+      "202327",
+      "202328",
+      "202329",
+      "202330",
+      "202331",
+      "202332",
+      "202333",
+      "202334",
+      "202335",
+      "202336",
+      "202337",
+      "202338",
+      "202339",
+      "202340",
+      "202341",
+      "202342",
+      "202343",
+      "202344",
+      "202345",
+      "202346",
+      "202347",
+      "202348",
+      "202349",
+      "202350",
+      "202351",
+      "202352"
+    ],
+    "only_in_2024.csv": [
+      "202401",
+      "202402",
+      "202403",
+      "202404",
+      "202405",
+      "202406",
+      "202407",
+      "202408",
+      "202409",
+      "202410",
+      "202411",
+      "202412",
+      "202413",
+      "202414",
+      "202415",
+      "202416",
+      "202417",
+      "202418",
+      "202419",
+      "202420",
+      "202421",
+      "202422",
+      "202423",
+      "202424",
+      "202425",
+      "202426",
+      "202427",
+      "202428",
+      "202429",
+      "202430",
+      "202431",
+      "202432",
+      "202433",
+      "202434",
+      "202435",
+      "202436",
+      "202437",
+      "202438",
+      "202439",
+      "202440",
+      "202441",
+      "202442",
+      "202443",
+      "202444",
+      "202445",
+      "202446",
+      "202447",
+      "202448",
+      "202449",
+      "202450",
+      "202451",
+      "202452"
+    ],
+    "only_in_2025.csv": [
+      "202501",
+      "202502",
+      "202503",
+      "202504",
+      "202505",
+      "202506",
+      "202507",
+      "202508",
+      "202509",
+      "202510",
+      "202511",
+      "202512",
+      "202513",
+      "202514",
+      "202515",
+      "202516",
+      "202517",
+      "202518",
+      "202519",
+      "202520",
+      "202521",
+      "202522",
+      "202523",
+      "202524",
+      "202525",
+      "202526",
+      "202527",
+      "202528",
+      "202529",
+      "202530",
+      "202531",
+      "202532",
+      "202533",
+      "202534",
+      "202535",
+      "202536",
+      "202537",
+      "202538",
+      "202539",
+      "202540",
+      "202541",
+      "202542",
+      "202543",
+      "202544",
+      "202545",
+      "202546",
+      "202547",
+      "202548",
+      "202549",
+      "202550",
+      "202551",
+      "202552"
+    ],
+    "row_counts": {
+      "2023.csv": 43338,
+      "2024.csv": 37035,
+      "2025.csv": 25239
+    },
+    "inferred_join_keys": []
+  },
+  "business_eda": {
+    "detected_cols": {
+      "cliente": null,
+      "producto": null,
+      "fecha": null,
+      "ventas": null,
+      "inventario": null
+    },
+    "numeric_summary": {
+      "202301": {
+        "count": 43338.0,
+        "mean": 16.1902,
+        "std": 313.3858,
+        "min": -123.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 33605.0
+      },
+      "202302": {
+        "count": 43338.0,
+        "mean": 14.657,
+        "std": 289.2851,
+        "min": -50.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 32030.0
+      },
+      "202303": {
+        "count": 43338.0,
+        "mean": 15.3215,
+        "std": 273.2669,
+        "min": -1377.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 30314.0
+      },
+      "202304": {
+        "count": 43338.0,
+        "mean": 17.5467,
+        "std": 255.0124,
+        "min": -57.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 27332.0
+      },
+      "202305": {
+        "count": 43338.0,
+        "mean": 18.1761,
+        "std": 248.5138,
+        "min": -48.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 25757.0
+      },
+      "202306": {
+        "count": 43338.0,
+        "mean": 17.6444,
+        "std": 240.294,
+        "min": -33.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 23216.0
+      },
+      "202307": {
+        "count": 43338.0,
+        "mean": 18.7223,
+        "std": 239.2723,
+        "min": -1000.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 21985.0
+      },
+      "202308": {
+        "count": 43338.0,
+        "mean": 19.7582,
+        "std": 226.8348,
+        "min": -13.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16091.0
+      },
+      "202309": {
+        "count": 43338.0,
+        "mean": 19.1293,
+        "std": 218.6424,
+        "min": -34.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14290.0
+      },
+      "202310": {
+        "count": 43338.0,
+        "mean": 17.4977,
+        "std": 200.376,
+        "min": -172.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13870.0
+      },
+      "202311": {
+        "count": 43338.0,
+        "mean": 17.2029,
+        "std": 190.2188,
+        "min": -71.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12828.0
+      },
+      "202312": {
+        "count": 43338.0,
+        "mean": 18.3065,
+        "std": 210.4406,
+        "min": -121.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14600.0
+      },
+      "202313": {
+        "count": 43338.0,
+        "mean": 20.7883,
+        "std": 222.4799,
+        "min": -161.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13600.0
+      },
+      "202314": {
+        "count": 43338.0,
+        "mean": 16.1973,
+        "std": 187.5545,
+        "min": -60.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13953.0
+      },
+      "202315": {
+        "count": 43338.0,
+        "mean": 17.1493,
+        "std": 196.9883,
+        "min": -21.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16999.0
+      },
+      "202316": {
+        "count": 43338.0,
+        "mean": 18.5158,
+        "std": 222.1894,
+        "min": -301.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 18726.0
+      },
+      "202317": {
+        "count": 43338.0,
+        "mean": 20.925,
+        "std": 244.5353,
+        "min": -9.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17738.0
+      },
+      "202318": {
+        "count": 43338.0,
+        "mean": 17.8329,
+        "std": 244.93,
+        "min": -20.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 25507.0
+      },
+      "202319": {
+        "count": 43338.0,
+        "mean": 17.7286,
+        "std": 239.5599,
+        "min": -50.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 21411.0
+      },
+      "202320": {
+        "count": 43338.0,
+        "mean": 18.2219,
+        "std": 256.1262,
+        "min": -73.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 26379.0
+      },
+      "202321": {
+        "count": 43338.0,
+        "mean": 18.2979,
+        "std": 253.3179,
+        "min": -65.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 27912.0
+      },
+      "202322": {
+        "count": 43338.0,
+        "mean": 19.0723,
+        "std": 253.0379,
+        "min": -40.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 25954.0
+      },
+      "202323": {
+        "count": 43338.0,
+        "mean": 17.4554,
+        "std": 240.1832,
+        "min": -35.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 25540.0
+      },
+      "202324": {
+        "count": 43338.0,
+        "mean": 16.5053,
+        "std": 216.2338,
+        "min": -31.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 20734.0
+      },
+      "202325": {
+        "count": 43338.0,
+        "mean": 15.0441,
+        "std": 181.8958,
+        "min": -15.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 19002.0
+      },
+      "202326": {
+        "count": 43338.0,
+        "mean": 17.9436,
+        "std": 201.8042,
+        "min": -34.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16838.0
+      },
+      "202327": {
+        "count": 43338.0,
+        "mean": 15.2057,
+        "std": 184.4461,
+        "min": -50.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16861.0
+      },
+      "202328": {
+        "count": 43338.0,
+        "mean": 15.182,
+        "std": 173.3454,
+        "min": -92.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 15443.0
+      },
+      "202329": {
+        "count": 43338.0,
+        "mean": 16.2285,
+        "std": 177.0623,
+        "min": -78.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13779.0
+      },
+      "202330": {
+        "count": 43338.0,
+        "mean": 17.5971,
+        "std": 185.2322,
+        "min": -78.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13088.0
+      },
+      "202331": {
+        "count": 43338.0,
+        "mean": 16.7359,
+        "std": 192.3846,
+        "min": -182.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 15963.0
+      },
+      "202332": {
+        "count": 43338.0,
+        "mean": 18.2816,
+        "std": 301.7872,
+        "min": -21.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 43484.0
+      },
+      "202333": {
+        "count": 43338.0,
+        "mean": 18.4422,
+        "std": 285.8026,
+        "min": -20.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 38671.0
+      },
+      "202334": {
+        "count": 43338.0,
+        "mean": 18.6471,
+        "std": 270.5272,
+        "min": -68.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 34187.0
+      },
+      "202335": {
+        "count": 43338.0,
+        "mean": 17.2186,
+        "std": 186.5345,
+        "min": -164.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12179.0
+      },
+      "202336": {
+        "count": 43338.0,
+        "mean": 15.6601,
+        "std": 189.6798,
+        "min": -40.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13991.0
+      },
+      "202337": {
+        "count": 43338.0,
+        "mean": 14.9682,
+        "std": 174.7313,
+        "min": -800.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12580.0
+      },
+      "202338": {
+        "count": 43338.0,
+        "mean": 15.8779,
+        "std": 179.9427,
+        "min": -370.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14265.0
+      },
+      "202339": {
+        "count": 43338.0,
+        "mean": 17.0488,
+        "std": 193.5504,
+        "min": -56.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12731.0
+      },
+      "202340": {
+        "count": 43338.0,
+        "mean": 14.3451,
+        "std": 183.5483,
+        "min": -52.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13516.0
+      },
+      "202341": {
+        "count": 43338.0,
+        "mean": 14.8109,
+        "std": 176.953,
+        "min": -18.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13412.0
+      },
+      "202342": {
+        "count": 43338.0,
+        "mean": 14.2476,
+        "std": 175.1926,
+        "min": -962.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12340.0
+      },
+      "202343": {
+        "count": 43338.0,
+        "mean": 14.6165,
+        "std": 150.7329,
+        "min": -2300.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 10235.0
+      },
+      "202344": {
+        "count": 43338.0,
+        "mean": 13.6119,
+        "std": 136.5122,
+        "min": -52.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 7762.0
+      },
+      "202345": {
+        "count": 43338.0,
+        "mean": 16.2298,
+        "std": 203.7261,
+        "min": -19.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16495.0
+      },
+      "202346": {
+        "count": 43338.0,
+        "mean": 16.2318,
+        "std": 198.6948,
+        "min": -203.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16478.0
+      },
+      "202347": {
+        "count": 43338.0,
+        "mean": 17.3785,
+        "std": 216.5402,
+        "min": -262.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 19978.0
+      },
+      "202348": {
+        "count": 43338.0,
+        "mean": 16.5713,
+        "std": 209.5786,
+        "min": -35.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17456.0
+      },
+      "202349": {
+        "count": 43338.0,
+        "mean": 14.5384,
+        "std": 206.42,
+        "min": -120.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 21247.0
+      },
+      "202350": {
+        "count": 43338.0,
+        "mean": 15.3847,
+        "std": 195.0568,
+        "min": -80.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17274.0
+      },
+      "202351": {
+        "count": 43338.0,
+        "mean": 13.4224,
+        "std": 162.9764,
+        "min": -8.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12936.0
+      },
+      "202352": {
+        "count": 43338.0,
+        "mean": 11.5519,
+        "std": 141.6917,
+        "min": -34.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 10331.0
+      },
+      "202401": {
+        "count": 37035.0,
+        "mean": 12.1861,
+        "std": 139.2664,
+        "min": -6.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 8004.0
+      },
+      "202402": {
+        "count": 37035.0,
+        "mean": 12.8415,
+        "std": 146.4646,
+        "min": -6.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 9607.0
+      },
+      "202403": {
+        "count": 37035.0,
+        "mean": 14.135,
+        "std": 136.3714,
+        "min": -5.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 7137.0
+      },
+      "202404": {
+        "count": 37035.0,
+        "mean": 15.06,
+        "std": 140.136,
+        "min": -5.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 7262.0
+      },
+      "202405": {
+        "count": 37035.0,
+        "mean": 14.9264,
+        "std": 139.2075,
+        "min": -29.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 6766.0
+      },
+      "202406": {
+        "count": 37035.0,
+        "mean": 14.9057,
+        "std": 181.2141,
+        "min": -16.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14300.0
+      },
+      "202407": {
+        "count": 37035.0,
+        "mean": 17.7503,
+        "std": 219.596,
+        "min": -26.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17924.0
+      },
+      "202408": {
+        "count": 37035.0,
+        "mean": 16.9552,
+        "std": 191.858,
+        "min": -19.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17675.0
+      },
+      "202409": {
+        "count": 37035.0,
+        "mean": 17.2875,
+        "std": 193.5148,
+        "min": -318.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17402.0
+      },
+      "202410": {
+        "count": 37035.0,
+        "mean": 15.8126,
+        "std": 180.7082,
+        "min": -31.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17054.0
+      },
+      "202411": {
+        "count": 37035.0,
+        "mean": 16.5767,
+        "std": 184.4562,
+        "min": -21.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16306.0
+      },
+      "202412": {
+        "count": 37035.0,
+        "mean": 19.4795,
+        "std": 200.2428,
+        "min": -11.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 15373.0
+      },
+      "202413": {
+        "count": 37035.0,
+        "mean": 17.2153,
+        "std": 186.8981,
+        "min": -114.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14946.0
+      },
+      "202414": {
+        "count": 37035.0,
+        "mean": 16.9981,
+        "std": 182.9637,
+        "min": -65.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14409.0
+      },
+      "202415": {
+        "count": 37035.0,
+        "mean": 17.8509,
+        "std": 194.721,
+        "min": -30.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13884.0
+      },
+      "202416": {
+        "count": 37035.0,
+        "mean": 16.8867,
+        "std": 179.7737,
+        "min": -555.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12918.0
+      },
+      "202417": {
+        "count": 37035.0,
+        "mean": 18.132,
+        "std": 174.958,
+        "min": -12.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 11136.0
+      },
+      "202418": {
+        "count": 37035.0,
+        "mean": 18.5062,
+        "std": 194.3991,
+        "min": -121.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13625.0
+      },
+      "202419": {
+        "count": 37035.0,
+        "mean": 16.8873,
+        "std": 169.0623,
+        "min": -12.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12197.0
+      },
+      "202420": {
+        "count": 37035.0,
+        "mean": 15.8419,
+        "std": 156.5338,
+        "min": -4.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 10371.0
+      },
+      "202421": {
+        "count": 37035.0,
+        "mean": 16.9914,
+        "std": 164.9821,
+        "min": -15.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 12731.0
+      },
+      "202422": {
+        "count": 37035.0,
+        "mean": 20.9463,
+        "std": 197.856,
+        "min": -25.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 12632.0
+      },
+      "202423": {
+        "count": 37035.0,
+        "mean": 16.6023,
+        "std": 173.5753,
+        "min": -194.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 11403.0
+      },
+      "202424": {
+        "count": 37035.0,
+        "mean": 17.0897,
+        "std": 158.3382,
+        "min": -29.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 9981.0
+      },
+      "202425": {
+        "count": 37035.0,
+        "mean": 17.0613,
+        "std": 151.5052,
+        "min": -130.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 9734.0
+      },
+      "202426": {
+        "count": 37035.0,
+        "mean": 21.8528,
+        "std": 266.8708,
+        "min": -102.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 27544.0
+      },
+      "202427": {
+        "count": 37035.0,
+        "mean": 16.6363,
+        "std": 206.1912,
+        "min": -200.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 27539.0
+      },
+      "202428": {
+        "count": 37035.0,
+        "mean": 16.6853,
+        "std": 167.6465,
+        "min": -40.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 17159.0
+      },
+      "202429": {
+        "count": 37035.0,
+        "mean": 17.055,
+        "std": 160.514,
+        "min": -10.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 12300.0
+      },
+      "202430": {
+        "count": 37035.0,
+        "mean": 19.4735,
+        "std": 190.9593,
+        "min": -13.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 12326.0
+      },
+      "202431": {
+        "count": 37035.0,
+        "mean": 17.8343,
+        "std": 178.6535,
+        "min": -208.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12300.0
+      },
+      "202432": {
+        "count": 37035.0,
+        "mean": 16.5775,
+        "std": 169.7039,
+        "min": -12.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12300.0
+      },
+      "202433": {
+        "count": 37035.0,
+        "mean": 16.4552,
+        "std": 164.1133,
+        "min": -68.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12299.0
+      },
+      "202434": {
+        "count": 37035.0,
+        "mean": 15.933,
+        "std": 157.8621,
+        "min": -50.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12298.0
+      },
+      "202435": {
+        "count": 37035.0,
+        "mean": 19.0869,
+        "std": 197.7065,
+        "min": -100.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 14185.0
+      },
+      "202436": {
+        "count": 37035.0,
+        "mean": 14.7625,
+        "std": 172.4184,
+        "min": -92.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13002.0
+      },
+      "202437": {
+        "count": 37035.0,
+        "mean": 15.3758,
+        "std": 165.124,
+        "min": -19.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12293.0
+      },
+      "202438": {
+        "count": 37035.0,
+        "mean": 16.8355,
+        "std": 178.2264,
+        "min": -31.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14083.0
+      },
+      "202439": {
+        "count": 37035.0,
+        "mean": 20.2902,
+        "std": 202.253,
+        "min": -13.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13335.0
+      },
+      "202440": {
+        "count": 37035.0,
+        "mean": 18.4513,
+        "std": 199.2577,
+        "min": -60.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13629.0
+      },
+      "202441": {
+        "count": 37035.0,
+        "mean": 17.7065,
+        "std": 184.3069,
+        "min": -6.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12190.0
+      },
+      "202442": {
+        "count": 37035.0,
+        "mean": 17.0027,
+        "std": 178.066,
+        "min": -6.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 13574.0
+      },
+      "202443": {
+        "count": 37035.0,
+        "mean": 18.5763,
+        "std": 186.0818,
+        "min": -1000.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12963.0
+      },
+      "202444": {
+        "count": 37035.0,
+        "mean": 21.4038,
+        "std": 275.9197,
+        "min": -49.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 25479.0
+      },
+      "202445": {
+        "count": 37035.0,
+        "mean": 18.3072,
+        "std": 244.0942,
+        "min": -55.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 24177.0
+      },
+      "202446": {
+        "count": 37035.0,
+        "mean": 20.3838,
+        "std": 234.1847,
+        "min": -58.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 22129.0
+      },
+      "202447": {
+        "count": 37035.0,
+        "mean": 21.943,
+        "std": 233.3573,
+        "min": -523.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 20314.0
+      },
+      "202448": {
+        "count": 37035.0,
+        "mean": 26.7255,
+        "std": 280.6894,
+        "min": -5.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 1.0,
+        "max": 18185.0
+      },
+      "202449": {
+        "count": 37035.0,
+        "mean": 20.4203,
+        "std": 245.5993,
+        "min": -199.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 16981.0
+      },
+      "202450": {
+        "count": 37035.0,
+        "mean": 19.0168,
+        "std": 223.9991,
+        "min": -8.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 17165.0
+      },
+      "202451": {
+        "count": 37035.0,
+        "mean": 17.3328,
+        "std": 190.4947,
+        "min": -102.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 14601.0
+      },
+      "202452": {
+        "count": 37035.0,
+        "mean": 13.6989,
+        "std": 162.6998,
+        "min": -36.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 12457.0
+      },
+      "202534": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202535": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202536": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202537": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202538": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202539": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202540": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202541": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202542": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202543": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202544": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202545": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202546": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202547": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202548": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202549": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202550": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202551": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      },
+      "202552": {
+        "count": 25239.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "25%": 0.0,
+        "50%": 0.0,
+        "75%": 0.0,
+        "max": 0.0
+      }
+    },
+    "top_correlations": [
+      [
+        "202301",
+        "202302",
+        0.9805
+      ],
+      [
+        "202302",
+        "202303",
+        0.9804
+      ],
+      [
+        "202332",
+        "202333",
+        0.9768
+      ],
+      [
+        "202323",
+        "202324",
+        0.9761
+      ],
+      [
+        "202327",
+        "202328",
+        0.9742
+      ],
+      [
+        "202336",
+        "202337",
+        0.9724
+      ],
+      [
+        "202409",
+        "202410",
+        0.9724
+      ],
+      [
+        "202318",
+        "202319",
+        0.972
+      ],
+      [
+        "202413",
+        "202414",
+        0.9718
+      ],
+      [
+        "202432",
+        "202433",
+        0.9709
+      ],
+      [
+        "202423",
+        "202424",
+        0.9693
+      ],
+      [
+        "202340",
+        "202341",
+        0.969
+      ],
+      [
+        "202321",
+        "202323",
+        0.9645
+      ],
+      [
+        "202322",
+        "202323",
+        0.9636
+      ],
+      [
+        "202436",
+        "202437",
+        0.9633
+      ],
+      [
+        "202306",
+        "202307",
+        0.9609
+      ],
+      [
+        "202419",
+        "202420",
+        0.9605
+      ],
+      [
+        "202301",
+        "202303",
+        0.9595
+      ],
+      [
+        "202441",
+        "202442",
+        0.9575
+      ],
+      [
+        "202445",
+        "202446",
+        0.956
+      ]
+    ]
+  },
+  "combined_rows": 105612,
+  "combined_cols": [
+    "Channel",
+    "Material Description",
+    "Category",
+    "202301",
+    "202302",
+    "202303",
+    "202304",
+    "202305",
+    "202306",
+    "202307",
+    "202308",
+    "202309",
+    "202310",
+    "202311",
+    "202312",
+    "202313",
+    "202314",
+    "202315",
+    "202316",
+    "202317",
+    "202318",
+    "202319",
+    "202320",
+    "202321",
+    "202322",
+    "202323",
+    "202324",
+    "202325",
+    "202326",
+    "202327",
+    "202328",
+    "202329",
+    "202330",
+    "202331",
+    "202332",
+    "202333",
+    "202334",
+    "202335",
+    "202336",
+    "202337",
+    "202338",
+    "202339",
+    "202340",
+    "202341",
+    "202342",
+    "202343",
+    "202344",
+    "202345",
+    "202346",
+    "202347",
+    "202348",
+    "202349",
+    "202350",
+    "202351",
+    "202352",
+    "_source_year",
+    "202401",
+    "202402",
+    "202403",
+    "202404",
+    "202405",
+    "202406",
+    "202407",
+    "202408",
+    "202409",
+    "202410",
+    "202411",
+    "202412",
+    "202413",
+    "202414",
+    "202415",
+    "202416",
+    "202417",
+    "202418",
+    "202419",
+    "202420",
+    "202421",
+    "202422",
+    "202423",
+    "202424",
+    "202425",
+    "202426",
+    "202427",
+    "202428",
+    "202429",
+    "202430",
+    "202431",
+    "202432",
+    "202433",
+    "202434",
+    "202435",
+    "202436",
+    "202437",
+    "202438",
+    "202439",
+    "202440",
+    "202441",
+    "202442",
+    "202443",
+    "202444",
+    "202445",
+    "202446",
+    "202447",
+    "202448",
+    "202449",
+    "202450",
+    "202451",
+    "202452",
+    "202501",
+    "202502",
+    "202503",
+    "202504",
+    "202505",
+    "202506",
+    "202507",
+    "202508",
+    "202509",
+    "202510",
+    "202511",
+    "202512",
+    "202513",
+    "202514",
+    "202515",
+    "202516",
+    "202517",
+    "202518",
+    "202519",
+    "202520",
+    "202521",
+    "202522",
+    "202523",
+    "202524",
+    "202525",
+    "202526",
+    "202527",
+    "202528",
+    "202529",
+    "202530",
+    "202531",
+    "202532",
+    "202533",
+    "202534",
+    "202535",
+    "202536",
+    "202537",
+    "202538",
+    "202539",
+    "202540",
+    "202541",
+    "202542",
+    "202543",
+    "202544",
+    "202545",
+    "202546",
+    "202547",
+    "202548",
+    "202549",
+    "202550",
+    "202551",
+    "202552"
+  ]
+}

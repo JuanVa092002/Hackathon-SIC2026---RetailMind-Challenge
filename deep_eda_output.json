@@ -1,0 +1,135 @@
+{
+  "panel_rows": 5491824,
+  "sparsity_zero_pct": 78.34,
+  "sparsity_positive_pct": 21.42,
+  "category_value_counts": {
+    "Sell-in": 1830608,
+    "Cust. Sales": 1830608,
+    "Channel Inv.": 1830608
+  },
+  "n_channels": 98,
+  "n_products": 2093,
+  "n_channel_product_pairs": 17001,
+  "panel_wide_rows": 1536652,
+  "active_panel_rows": 647487,
+  "active_panel_pct": 42.14,
+  "category_correlations_active": {
+    "Sell-in": {
+      "Sell-in": 1.0,
+      "Cust. Sales": 0.3075,
+      "Channel Inv.": 0.3461
+    },
+    "Cust. Sales": {
+      "Sell-in": 0.3075,
+      "Cust. Sales": 1.0,
+      "Channel Inv.": 0.5773
+    },
+    "Channel Inv.": {
+      "Sell-in": 0.3461,
+      "Cust. Sales": 0.5773,
+      "Channel Inv.": 1.0
+    }
+  },
+  "sell_through_median": 0.0,
+  "stockout_signal": 32450,
+  "overstock_signal": 9209,
+  "top10_customers_cust_sales": {
+    "CUSTOMER20": 1667092,
+    "CUSTOMER7": 892178,
+    "CUSTOMER42": 731145,
+    "CUSTOMER24": 338922,
+    "CUSTOMER70": 289213,
+    "CUSTOMER27": 277087,
+    "CUSTOMER69": 241959,
+    "CUSTOMER43": 240037,
+    "CUSTOMER35": 206917,
+    "CUSTOMER73": 190333
+  },
+  "bottom10_customers_cust_sales": {
+    "CUSTOMER28": 0,
+    "CUSTOMER22": 0,
+    "CUSTOMER55": 0,
+    "CUSTOMER59": 0,
+    "CUSTOMER46": 0,
+    "CUSTOMER75": 0,
+    "CUSTOMER83": 0,
+    "CUSTOMER92": 0,
+    "CUSTOMER95": 0,
+    "CUSTOMER98": 0
+  },
+  "customer_concentration_top10_pct": 69.53,
+  "top10_products_cust_sales": {
+    "MOBILE,SM-A145M/DS,BLACK,LTC": 163824,
+    "MOBILE,SM-A145M/DS,LIGHT GREEN ,LTC": 119080,
+    "MOBILE,SM-A356E/DS,BLACK,LTC": 112506,
+    "LED TV,UN40T5290AK,40,COLOMBIA,UWM00/U40": 97026,
+    "MOBILE,SM-A245M/DSN,BLACK,LTC": 96122,
+    "AV RECEIVER,HW-C400,COLOMBIA": 91800,
+    "MOBILE,SM-A042M/DS,BLACK,LTC": 87848,
+    "MOBILE,SM-A145M,BLACK,COM": 87557,
+    "MOBILE,SM-A055M/DS,BLACK,LTC": 85396,
+    "LED TV,UN58CU7000K,58,COLOMBIA,UWS31/U58": 80947
+  },
+  "n_products_with_sales": 1491,
+  "peak_weeks_2023": {
+    "47": 99115,
+    "48": 79147,
+    "51": 78230,
+    "13": 76361,
+    "50": 73435
+  },
+  "peak_weeks_2024": {
+    "48": 116688,
+    "51": 92938,
+    "28": 90126,
+    "50": 85025,
+    "49": 78596
+  },
+  "duplicates_channel_product_category": [
+    {
+      "2023.csv": 6390
+    },
+    {
+      "2024.csv": 6561
+    },
+    {
+      "2025.csv": 4008
+    }
+  ],
+  "avg_products_per_customer": 173.48,
+  "max_products_per_customer": 794,
+  "weeks_in_2023.csv": 52,
+  "weeks_in_2024.csv": 52,
+  "weeks_in_2025.csv": 52,
+  "2025_last_week_with_aggregate_sales": 33,
+  "customers_down_50pct_yoy": 24,
+  "customers_up_50pct_yoy": 5,
+  "customers_zero_2024_but_active_2023": 10,
+  "nonzero_weeks_cust_sales_per_series": {
+    "count": 17001.0,
+    "mean": 16.39,
+    "std": 23.39,
+    "min": 0.0,
+    "25%": 0.0,
+    "50%": 5.0,
+    "75%": 24.0,
+    "max": 137.0
+  },
+  "totals_by_year": {
+    "Sell-in": {
+      "2023": 2789941,
+      "2024": 2759300,
+      "2025": 1189538
+    },
+    "Cust. Sales": {
+      "2023": 2962883,
+      "2024": 2766151,
+      "2025": 1569536
+    },
+    "Channel Inv.": {
+      "2023": 26039554,
+      "2024": 22010190,
+      "2025": 6642248
+    }
+  }
+}
